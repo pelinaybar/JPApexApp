@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		5BE2233B2B73713000E2E848 /* JPApexAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2233A2B73713000E2E848 /* JPApexAppApp.swift */; };
 		5BE2233D2B73713000E2E848 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2233C2B73713000E2E848 /* ContentView.swift */; };
-		5BE2233F2B73713000E2E848 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2233E2B73713000E2E848 /* Item.swift */; };
 		5BE223412B73713100E2E848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE223402B73713100E2E848 /* Assets.xcassets */; };
 		5BE223442B73713100E2E848 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE223432B73713100E2E848 /* Preview Assets.xcassets */; };
 		5BE2234E2B73713200E2E848 /* JPApexAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2234D2B73713200E2E848 /* JPApexAppTests.swift */; };
 		5BE223582B73713200E2E848 /* JPApexAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE223572B73713200E2E848 /* JPApexAppUITests.swift */; };
 		5BE2235A2B73713200E2E848 /* JPApexAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE223592B73713200E2E848 /* JPApexAppUITestsLaunchTests.swift */; };
+		5BE223692B7374EF00E2E848 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BE223682B7374EE00E2E848 /* jpapexpredators.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		5BE223372B73713000E2E848 /* JPApexApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPApexApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE2233A2B73713000E2E848 /* JPApexAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPApexAppApp.swift; sourceTree = "<group>"; };
 		5BE2233C2B73713000E2E848 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5BE2233E2B73713000E2E848 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		5BE223402B73713100E2E848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE223432B73713100E2E848 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BE223492B73713200E2E848 /* JPApexAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPApexAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,7 @@
 		5BE223532B73713200E2E848 /* JPApexAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPApexAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE223572B73713200E2E848 /* JPApexAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPApexAppUITests.swift; sourceTree = "<group>"; };
 		5BE223592B73713200E2E848 /* JPApexAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPApexAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BE223682B7374EE00E2E848 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			children = (
 				5BE2233A2B73713000E2E848 /* JPApexAppApp.swift */,
 				5BE2233C2B73713000E2E848 /* ContentView.swift */,
-				5BE2233E2B73713000E2E848 /* Item.swift */,
+				5BE223682B7374EE00E2E848 /* jpapexpredators.json */,
 				5BE223402B73713100E2E848 /* Assets.xcassets */,
 				5BE223422B73713100E2E848 /* Preview Content */,
 			);
@@ -236,6 +236,7 @@
 			files = (
 				5BE223442B73713100E2E848 /* Preview Assets.xcassets in Resources */,
 				5BE223412B73713100E2E848 /* Assets.xcassets in Resources */,
+				5BE223692B7374EF00E2E848 /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BE2233D2B73713000E2E848 /* ContentView.swift in Sources */,
-				5BE2233F2B73713000E2E848 /* Item.swift in Sources */,
 				5BE2233B2B73713000E2E848 /* JPApexAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
