@@ -27,7 +27,7 @@ struct ContentView: View {
         NavigationStack{
             List(filteredDinos) { predator in //her bir predator içinde //List(predators.apexPredators) vardı sonra filtreleme için yukarda filtereddinos ile değiştirdik
                 NavigationLink{
-                    
+                    PredatorDetail()
                 }label:{
                     HStack{
                         //dinospur image
@@ -88,7 +88,7 @@ struct ContentView: View {
                     .fontWeight(.bold)
                 }
             }
-            
+        
         }
         .preferredColorScheme(.dark) // dark mode
     }
